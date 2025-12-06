@@ -58,7 +58,7 @@ Arquitetura em camadas:
 - email
 - senha (hash bcrypt)
 - role ENUM('ADMIN','GERENTE','VENDEDOR','USER')
-- ativo TINYINT(1)
+- ativo BOOLEAN
 
 ### Produto
 - id INT PK
